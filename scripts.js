@@ -41,7 +41,9 @@ $(document).ready(function(){
 		newTriangle.sides.length = 0;
 
 		$('form#sides')[0].reset();
+        $('#side1').focus();
 	});
+     $('#side1').focus();
 });
 
 //reset cursor to first field
